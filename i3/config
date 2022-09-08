@@ -4,11 +4,13 @@
 
 set $mod Mod4
 
+font pango: monospace 8
+
 ##############################
 #######-Minhas Configs-#######
 ##############################
 
-# Posicao do titulo da tela
+# Posicao do titulo da telaii
 # left|center|right
 title_align left
 
@@ -229,11 +231,11 @@ for_window [class=".*"] border pixel 2
 #
 # quando isso estiver 'on', e tiver so uma janela
 # na tela, nao fica com borda
-smart_gaps on
+# smart_gaps on
 #
 # Tamanho dos espaçamentos
-gaps inner 3 # Espacamento interno
-gaps outer 1 # Espacamento externo
+gaps inner 10
+gaps top 4
 
 # So vai apareer borda se tiver mais de uma janela
 smart_borders on
